@@ -1,0 +1,22 @@
+---
+// Esta rota antiga foi substituída pela lição de instruções personalizadas.
+const base = import.meta.env.BASE_URL.endsWith('/')
+  ? import.meta.env.BASE_URL
+  : `${import.meta.env.BASE_URL}/`;
+const target = `${base}pt-br/real-world-development/cli/4-custom-instructions/`;
+const canonical = new URL(target, Astro.site).href;
+---
+
+<!doctype html>
+<html lang="pt-BR" data-pagefind-ignore>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="refresh" content={`0;url=${target}`} />
+    <meta name="robots" content="noindex" />
+    <link rel="canonical" href={canonical} />
+    <title>Redirecionando para a lição de instruções personalizadas</title>
+  </head>
+  <body>
+    <a href={target}>Esta página foi movida. Continue para a lição atual de instruções personalizadas.</a>
+  </body>
+</html>

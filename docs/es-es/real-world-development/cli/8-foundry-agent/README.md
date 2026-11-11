@@ -74,7 +74,7 @@ Cuando termines de experimentar en cualquiera de los puntos de comprobación, el
 [project-model]: 1-project-and-model/
 [build-deploy]: 2-build-and-deploy/
 [connect-site]: 3-connect-to-site/
-[review]: ../9-review/
+[review]: ../10-review/
 [cleanup]: #elimina-los-recursos
 [azure-skills]: https://github.com/microsoft/azure-skills#github-copilot-cli
 [foundry-skill]: https://learn.microsoft.com/azure/foundry/how-to/develop/use-microsoft-foundry-skill?tabs=copilot-cli
